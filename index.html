@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hospital Map</title>
+        <link rel="stylesheet" type="text/css" href="dist/css/styles.css" />
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+	</head>
+	<body>
+        <h1>Hello world!</h1>
+        <main>
+            <label for="states">Choose A State</label>
+            <select id="states">
+                <option value="MA">Massachusetts</option>
+                <option value="ME">Maine</option>
+                <option value="NH">New Hampshire</option>
+                <option value="VT">Vermont</option>
+                <option value="RI">Rhode Island</option>
+                <option value="CT">Conneticut</option>
+            </select>
+
+            <div class="chart-container">
+                <div class="map-container" id="twenty-percent-six-months"></div>
+                <div class="map-container" id="twenty-percent-twelve-months"></div>
+                <div class="map-container" id="twenty-percent-eighteen-months"></div>
+                <div class="map-container" id="forty-percent-six-months"></div>
+                <div class="map-container" id="forty-percent-twelve-months"></div>
+                <div class="map-container" id="forty-percent-eighteen-months"></div>
+                <div class="map-container" id="sixty-percent-six-months"></div>
+                <div class="map-container" id="sixty-percent-twelve-months"></div>
+                <div class="map-container" id="sixty-percent-eighteen-months"></div>
+            </div>
+        </main>
+
+        <script src="./src/js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.chart-container {
+    height: 80vh;
+    display: grid;
+    grid: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.map-conatiner {
+    position: relative; 
+}
